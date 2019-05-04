@@ -206,58 +206,6 @@
                   <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="2445,205,319,19" Id="BzXynLKBlDDLERvXh1G2ss">
-                <p:NodeReference LastCategoryFullName="Collections.Array" LastSymbolSource="VL.Collections.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="Cons" />
-                  <CategoryReference Kind="ClassType" Name="Array" NeedsToBeDirectParent="true" />
-                </p:NodeReference>
-                <Pin Id="TYVVu5BmY6WPbbAqliu835" Name="Input" Kind="StateInputPin" />
-                <Pin Id="IVmdvCshTmJPkaoqjaSSqO" Name="Input 2" Kind="StateInputPin" />
-                <Pin Id="Ng2DpMY5DugNBGNIpnXMsV" Name="Input 3" Kind="InputPin" />
-                <Pin Id="Mw6pEGGOPR5NcTHyn8aBU3" Name="Input 4" Kind="InputPin" />
-                <Pin Id="KyS80PJS4JTNw1mQRjAAVr" Name="Result" Kind="OutputPin" />
-              </Node>
-              <Node Bounds="2549,112,87,26" Id="HNll2V1WhkILz4Z7F6Wgto">
-                <p:NodeReference LastCategoryFullName="Main.VertexPositionColor" LastSymbolSource="Veldrid_Test.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="VertexPositionColor" />
-                  <Choice Kind="OperationCallFlag" Name="Create" />
-                </p:NodeReference>
-                <Pin Id="FsRCb7zQ3aKPSGeNrbaFCv" Name="Position" Kind="InputPin" />
-                <Pin Id="I4mmjs4OlBiMqigGUmsSvz" Name="Color" Kind="InputPin" />
-                <Pin Id="Vg9irT4DtHaPA2d0srbtcd" Name="Output" Kind="StateOutputPin" />
-              </Node>
-              <Node Bounds="2440,112,87,26" Id="CqoJ7oj6f2eMpJYf1DoxmR">
-                <p:NodeReference LastCategoryFullName="Main.VertexPositionColor" LastSymbolSource="Veldrid_Test.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="VertexPositionColor" />
-                  <Choice Kind="OperationCallFlag" Name="Create" />
-                </p:NodeReference>
-                <Pin Id="SUhi5qjlHVGL6hETdmyXJ9" Name="Position" Kind="InputPin" />
-                <Pin Id="TMaIyiaAWY9L5e3ac3pYDd" Name="Color" Kind="InputPin" />
-                <Pin Id="So5oSM67X2WLDLULJAb3GT" Name="Output" Kind="StateOutputPin" />
-              </Node>
-              <Node Bounds="2760,112,87,26" Id="Guo3RC11eXSPRiiG3o8Lb2">
-                <p:NodeReference LastCategoryFullName="Main.VertexPositionColor" LastSymbolSource="Veldrid_Test.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="VertexPositionColor" />
-                  <Choice Kind="OperationCallFlag" Name="Create" />
-                </p:NodeReference>
-                <Pin Id="CEFYj9dmGvPNc1vd9lIano" Name="Position" Kind="InputPin" />
-                <Pin Id="DR0jD8YPR2qOSFkVXUjNg9" Name="Color" Kind="InputPin" />
-                <Pin Id="O4sriAYzSZEOfZ1fWU4v9H" Name="Output" Kind="StateOutputPin" />
-              </Node>
-              <Node Bounds="2651,112,87,26" Id="PnYJgpm5tGqNgLUisrOrgW">
-                <p:NodeReference LastCategoryFullName="Main.VertexPositionColor" LastSymbolSource="Veldrid_Test.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="VertexPositionColor" />
-                  <Choice Kind="OperationCallFlag" Name="Create" />
-                </p:NodeReference>
-                <Pin Id="NPcKw0kgskjP3E0n22KCur" Name="Position" Kind="InputPin" />
-                <Pin Id="TWrLOeDylcTNMGxA98G0JH" Name="Color" Kind="InputPin" />
-                <Pin Id="MdnsBvWaexAPa0QrDztaO8" Name="Output" Kind="StateOutputPin" />
-              </Node>
               <Node Bounds="2091,479,78,26" Id="KwHOL4KVk1vPvlFqrqHTX6">
                 <p:NodeReference LastCategoryFullName="Veldrid.BufferDescription" LastSymbolSource="Veldrid.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -290,20 +238,6 @@
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
                 </p:TypeAnnotation>
-              </Pad>
-              <Pad Id="L2J4Vu8SiQzOemhU2QqQM0" Comment="io" Bounds="2372,453,20,80" ShowValueBox="true" isIOBox="true" Value="0, 1, 2, 3">
-                <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
-                  <Choice Kind="TypeFlag" Name="Spread" />
-                  <p:TypeArguments>
-                    <TypeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="TypeFlag" Name="Integer16 (Unsigned)" />
-                    </TypeReference>
-                  </p:TypeArguments>
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings>
-                  <p:maxvisibleentries p:Type="Int32">6</p:maxvisibleentries>
-                  <p:showslider p:Type="Boolean">false</p:showslider>
-                </p:ValueBoxSettings>
               </Pad>
               <Pad Id="RXkwlXGIPCKNNZmnZvR3Nv" Comment="" Bounds="2126,418,20,15" ShowValueBox="true" isIOBox="true" Value="2">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -390,31 +324,6 @@
                   <Choice Kind="TypeFlag" Name="BufferUsage" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="1973,606,519,26" Id="OFrtk50I6IXLDQSe5HUrfQ">
-                <p:NodeReference LastCategoryFullName="Veldrid.GraphicsDevice" LastSymbolSource="Veldrid.dll">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="UpdateBuffer" />
-                  <CategoryReference Kind="AssemblyCategory" Name="GraphicsDevice" NeedsToBeDirectParent="true" />
-                  <PinReference Kind="InputPin" Name="Source">
-                    <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="System" LastSymbolSource="mscorlib.dll">
-                      <Choice Kind="TypeFlag" Name="Array`1" />
-                      <p:TypeArguments>
-                        <TypeParameterReference />
-                      </p:TypeArguments>
-                    </p:DataTypeReference>
-                  </PinReference>
-                </p:NodeReference>
-                <Pin Id="VOVZhUsWpeLMPy06thRqW0" Name="Input" Kind="StateInputPin" />
-                <Pin Id="G4wsup48kkDNsnofqvmKGt" Name="Buffer" Kind="InputPin" />
-                <Pin Id="RLBrMf8BumBOommbHHWQ0o" Name="Buffer Offset In Bytes" Kind="InputPin">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="OyLqvqG5svbNkakHq3Da5b" Name="Source" Kind="InputPin" />
-                <Pin Id="GFbE0yykBKbPbL4ER0kB9E" Name="Apply" Kind="InputPin" />
-                <Pin Id="HEt4R4kXBOaMxmcdVczwUa" Name="Output" Kind="StateOutputPin" />
-              </Node>
               <Node Bounds="2019,527,75,26" Id="Aa7fCLQYc9yPX0FQYiSrln">
                 <p:NodeReference LastCategoryFullName="Veldrid.ResourceFactory" LastSymbolSource="Veldrid.dll">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -429,15 +338,6 @@
                 <Pin Id="IRX2uKRziAAO2gZSCwatBq" Name="Description" Kind="InputPin" />
                 <Pin Id="D1NjnUMmPDJMAeAuJiW0XE" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="EPIkiaCrUcjNNDZnhrk8im" Name="Result" Kind="OutputPin" />
-              </Node>
-              <Node Bounds="2370,566,83,26" Id="VxlWTr9yF0DQbg0pmRN1tB">
-                <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableArray" LastSymbolSource="VL.Collections.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="FromSequence" />
-                  <CategoryReference Kind="ArrayType" Name="MutableArray" NeedsToBeDirectParent="true" />
-                </p:NodeReference>
-                <Pin Id="Jkh7YLFH96VOoyoMsI4vPB" Name="Input" Kind="StateInputPin" />
-                <Pin Id="U8TxMTt2qioQGW6zcWZSnj" Name="Result" Kind="OutputPin" />
               </Node>
               <Node Bounds="3228,511,81,26" Id="G0TtfsTGK3PNOATfErn4WQ">
                 <p:NodeReference LastCategoryFullName="Veldrid.ShaderDescription" LastSymbolSource="Veldrid.dll">
@@ -758,10 +658,7 @@
               <Link Id="NnKMNDcyjjwMfzulEgtGP2" Ids="RjrtuoTrtwZPnqRViGWKxk,PdAwsx8ht5qPRnzf29YEyq" />
               <Link Id="CSM2ye3brygPEmmcgNXwe3" Ids="MOs4r1Q5m7QNIn9EDG1WkI,Jf4JU2AVFAYL7KE1lPq9Hm" />
               <Link Id="PyT0T3BH9jcNHpGyPVKQBI" Ids="TPb2javihBmO3fCYA63WbJ,IRX2uKRziAAO2gZSCwatBq" />
-              <Link Id="QQY64Swrc3cQUKGpCJb0z8" Ids="EPIkiaCrUcjNNDZnhrk8im,G4wsup48kkDNsnofqvmKGt" />
               <Link Id="HUAjh0JbKRDOwk6tkpVysO" Ids="H9GOJ26vxgbNwdHN1Q6Hbr,NmiA8zQURUpQH4O7fTySO3" />
-              <Link Id="AByQSn4u38yOy6YQKNyhEr" Ids="L2J4Vu8SiQzOemhU2QqQM0,Jkh7YLFH96VOoyoMsI4vPB" />
-              <Link Id="P1gTfMEZIk4NPW7V6djZyE" Ids="U8TxMTt2qioQGW6zcWZSnj,OyLqvqG5svbNkakHq3Da5b" />
               <Link Id="My7ZjzXcGsZLZSECMmw52I" Ids="S7URcjeLdyPMQBUgHYYpKr,OWEcZh7uLj6NlRMncFvsni" />
               <Link Id="SfGhKI68ZluNvbavrEgs8R" Ids="D1NjnUMmPDJMAeAuJiW0XE,GdkCq0TrnooMFzwvCjpe1l" />
               <Link Id="NTcsDwuTqrtM09b9rXj1ee" Ids="Hj95XD8ssy0PPVpZP8QyvA,SXSUpOFK89PQWG2Y5lHuaQ" />
@@ -878,88 +775,12 @@
               <Link Id="SOwBgyusapxMj6sGsryJCf" Ids="F8XrhjfOsHIL6C5nK0W6Ev,LX2MkK4maYANqeTvQpcplJ" />
               <Link Id="In0UGDPau3FNMBAwMLehxp" Ids="C3ZT8FyhYciOrGmyMXqvp4,ORrBSEN2qIILiK7ZHqfxod" />
               <Link Id="AhJX9AmmCRtQbzCXuJTwl8" Ids="H87rVisXNvrL03IYDpdDep,JSyIEEflxufPMejzY8bBzI" />
-              <Pad Id="Iu9c4GpwO4uOm1GIHDD3zs" Comment="Item 1" Bounds="2433,72,35,28" ShowValueBox="true" isIOBox="true" Value="-0.75, 0.75">
-                <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Vector2" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings />
-              </Pad>
-              <Pad Id="RkcUEB6qIc0QOwyFi8e4zM" Comment="Item 1" Bounds="2543,72,35,28" ShowValueBox="true" isIOBox="true" Value="0.75, 0.75">
-                <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Vector2" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings />
-              </Pad>
-              <Pad Id="Dd1YbW6hambO2yICeKqUEM" Comment="Item 1" Bounds="2649,72,35,28" ShowValueBox="true" isIOBox="true" Value="-0.75, -0.75">
-                <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Vector2" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings />
-              </Pad>
-              <Pad Id="OYLYzOw3xh4LejzxwRAq69" Comment="Item 1" Bounds="2753,72,35,28" ShowValueBox="true" isIOBox="true" Value="0.75, -0.75">
-                <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Vector2" />
-                </p:TypeAnnotation>
-                <p:ValueBoxSettings />
-              </Pad>
-              <Link Id="CqaP6yo5xEPMGqvRjMnDAh" Ids="Iu9c4GpwO4uOm1GIHDD3zs,SUhi5qjlHVGL6hETdmyXJ9" />
-              <Link Id="CZXFZsDXllINYMRl3GDexH" Ids="RkcUEB6qIc0QOwyFi8e4zM,FsRCb7zQ3aKPSGeNrbaFCv" />
-              <Link Id="ONoGkTDjOJsQP1wuG8gaLq" Ids="Dd1YbW6hambO2yICeKqUEM,NPcKw0kgskjP3E0n22KCur" />
-              <Link Id="GDmSMUxQZomO2QOjri8Khg" Ids="OYLYzOw3xh4LejzxwRAq69,CEFYj9dmGvPNc1vd9lIano" />
-              <Node Bounds="2446,249,64,26" Id="H0krrU0axieOI9QeotgNk1">
-                <p:NodeReference LastCategoryFullName="Collections.Mutable.MutableArray" LastSymbolSource="VL.Collections.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="ToArray" />
-                  <CategoryReference Kind="ArrayType" Name="MutableArray" NeedsToBeDirectParent="true" />
-                </p:NodeReference>
-                <Pin Id="LhbpD9MEGD4NCtFwSbvoAQ" Name="Input" Kind="StateInputPin" />
-                <Pin Id="EqkSdsP51CIPHUEyb8yflZ" Name="Result" Kind="OutputPin" />
-              </Node>
-              <Link Id="SjSU1AXB4DLNc7A5cKPBrm" Ids="KyS80PJS4JTNw1mQRjAAVr,LhbpD9MEGD4NCtFwSbvoAQ" />
               <Pad Id="GZCsfIcX74FOUIEXFueYl8" Comment="" Bounds="2149,124,35,15" ShowValueBox="true" isIOBox="true" Value="24">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
                 </p:TypeAnnotation>
               </Pad>
               <Link Id="DEEWn7a3zqFMsqH7Wlsg2a" Ids="GZCsfIcX74FOUIEXFueYl8,NSrGSn0c4vDOGMB8UyePtq" />
-              <Node Bounds="1975,375,425,26" Id="Rocfjfp8r3yLOd1d97zBco">
-                <p:NodeReference LastCategoryFullName="Veldrid.GraphicsDevice" LastSymbolSource="Veldrid.dll">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="UpdateBuffer" />
-                  <CategoryReference Kind="AssemblyCategory" Name="GraphicsDevice" NeedsToBeDirectParent="true" />
-                  <PinReference Kind="InputPin" Name="this">
-                    <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="Veldrid" LastSymbolSource="Veldrid.dll">
-                      <Choice Kind="TypeFlag" Name="GraphicsDevice" />
-                    </p:DataTypeReference>
-                  </PinReference>
-                  <PinReference Kind="InputPin" Name="Source">
-                    <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="System" LastSymbolSource="mscorlib.dll">
-                      <Choice Kind="TypeFlag" Name="Array`1" />
-                      <p:TypeArguments>
-                        <TypeParameterReference />
-                      </p:TypeArguments>
-                    </p:DataTypeReference>
-                  </PinReference>
-                </p:NodeReference>
-                <Pin Id="Tm3kMq8T473LFwGCUFB6QF" Name="Input" Kind="StateInputPin" />
-                <Pin Id="KhEDi53YeVmQIjhMItwRyv" Name="Buffer" Kind="InputPin" />
-                <Pin Id="K8BUZX726tdO9NGPA9T7Be" Name="Buffer Offset In Bytes" Kind="InputPin">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="LyS0XD8EJuDQDxkx1XQ6pJ" Name="Source" Kind="InputPin" />
-                <Pin Id="Gxg8WcYtMIXQALA6NVgvzR" Name="Apply" Kind="InputPin" />
-                <Pin Id="Lsv5neoivCbNjwc0VUP9je" Name="Output" Kind="StateOutputPin" />
-              </Node>
-              <Link Id="JOZEmPbr2zWNfRKjPyeH2d" Ids="CP31bsCiH3LNiLaFhtOYfp,Tm3kMq8T473LFwGCUFB6QF" />
-              <Link Id="M1KnBl27ohFOeJIGJWuLry" Ids="Lsv5neoivCbNjwc0VUP9je,VOVZhUsWpeLMPy06thRqW0" />
-              <Link Id="DuTwUOvaA5aMP19iTdnbW8" Ids="GgxDJG3buxTOdGlLszlZkB,KhEDi53YeVmQIjhMItwRyv" />
-              <Link Id="UIu2ZbiE6SjNK39S5lrMbB" Ids="So5oSM67X2WLDLULJAb3GT,TYVVu5BmY6WPbbAqliu835" />
-              <Link Id="UodvInTVJpSL1wCkhu4kKc" Ids="Vg9irT4DtHaPA2d0srbtcd,IVmdvCshTmJPkaoqjaSSqO" />
-              <Link Id="BbM8qGgYQtdLBmHHXlLns9" Ids="MdnsBvWaexAPa0QrDztaO8,Ng2DpMY5DugNBGNIpnXMsV" />
-              <Link Id="MKxCYdkNV4yOj1h21JqXrG" Ids="O4sriAYzSZEOfZ1fWU4v9H,Mw6pEGGOPR5NcTHyn8aBU3" />
-              <Link Id="QWpGwMV1umxOYL7QCmoa0V" Ids="EqkSdsP51CIPHUEyb8yflZ,LyS0XD8EJuDQDxkx1XQ6pJ" />
               <Pin Id="CPjo82aP2ELOXNwUITMtpO" Name="Window" Kind="InputPin" Bounds="1657,182" />
               <Pin Id="MR7FAUJgqtoP5zPXPMJJhe" Name="CommandList" Kind="OutputPin" Bounds="2857,1388" />
               <Pin Id="HM3eJat9SRBPN8Yh9apjVW" Name="VertexBuffer" Kind="OutputPin" Bounds="1947,439" />
@@ -968,43 +789,7 @@
               <Pin Id="KKbHkGNJgShNIboNHlthHN" Name="GraphicsDevice" Kind="OutputPin" Bounds="2640,1238" />
               <Pin Id="JbTkXNsT3RBLgEKF60VHCE" Name="Shaders" Kind="OutputPin" Bounds="2983,805" />
               <Link Id="KYJCJ359bHcOjEn6IPaun1" Ids="CP31bsCiH3LNiLaFhtOYfp,BezbYpQh1llNViPLuQZELx" />
-              <Pad Id="KcQM725muVUL32HY6ufaBe" Comment="Apply" Bounds="2397,329,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Boolean" />
-                </p:TypeAnnotation>
-              </Pad>
-              <Link Id="NliXQbv36lWLxDe8pKzjtS" Ids="KcQM725muVUL32HY6ufaBe,Gxg8WcYtMIXQALA6NVgvzR" />
-              <Pad Id="Lq5UFZAMi9yPTv0ROXKcBU" Comment="Apply" Bounds="2474,543,35,35" ShowValueBox="true" isIOBox="true" Value="False">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Boolean" />
-                </p:TypeAnnotation>
-              </Pad>
-              <Link Id="UCnKiWL4hlZQLOChl40vCW" Ids="Lq5UFZAMi9yPTv0ROXKcBU,GFbE0yykBKbPbL4ER0kB9E" />
               <Link Id="Uoo9Hsb0j5gLPA1QUxFn4x" Ids="L8YAH6mu0lTMc1rdmtpkn5,PijNDjZGzyiOIy0NjmviKN" />
-              <Pad Id="QkbchUp3IrtOffXboapK5F" Comment="Color" Bounds="2495,-51,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 1">
-                <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="RGBA" />
-                </p:TypeAnnotation>
-              </Pad>
-              <Pad Id="OAPUhWJXgBvNLMOsCg5Zw2" Comment="Color" Bounds="2606,-20,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 1">
-                <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="RGBA" />
-                </p:TypeAnnotation>
-              </Pad>
-              <Pad Id="FNzBEQwkt6lLZh4ovuSdU3" Comment="Color" Bounds="2709,5,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 1">
-                <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="RGBA" />
-                </p:TypeAnnotation>
-              </Pad>
-              <Pad Id="CC0uI9BCF1AMAJ7MXDNsyO" Comment="Color" Bounds="2819,31,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 1">
-                <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="RGBA" />
-                </p:TypeAnnotation>
-              </Pad>
-              <Link Id="GwdR3OyjXzRPTvNWbj2NPV" Ids="QkbchUp3IrtOffXboapK5F,TMaIyiaAWY9L5e3ac3pYDd" />
-              <Link Id="QjenMETXmA6QOCL4jkZ5J0" Ids="OAPUhWJXgBvNLMOsCg5Zw2,I4mmjs4OlBiMqigGUmsSvz" />
-              <Link Id="Jz9wD9T2xgdLMDrqSZrBj9" Ids="FNzBEQwkt6lLZh4ovuSdU3,TWrLOeDylcTNMGxA98G0JH" />
-              <Link Id="Bs46mZ4yX0HOj7YVqODAII" Ids="CC0uI9BCF1AMAJ7MXDNsyO,DR0jD8YPR2qOSFkVXUjNg9" />
             </Patch>
           </Node>
           <Pad Id="SNJnK3hRuQMPHrgJciJfdp" SlotId="CxsN7mXiK2rPBHaNmwX7M4" Bounds="728,134">
