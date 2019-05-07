@@ -1646,12 +1646,12 @@
                   <Choice Kind="TypeFlag" Name="Integer32" />
                 </p:TypeAnnotation>
               </Pad>
-              <Pad Id="KKBx2gwrICLPRPNIARdi6P" Comment="" Bounds="215,384,35,15" ShowValueBox="true" isIOBox="true" Value="1024">
+              <Pad Id="KKBx2gwrICLPRPNIARdi6P" Comment="" Bounds="215,384,35,15" ShowValueBox="true" isIOBox="true" Value="256">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Integer32" />
                 </p:TypeAnnotation>
               </Pad>
-              <Pad Id="MiebWsOtQdCMfR9F9CG1YO" Comment="Y" Bounds="279,384,35,15" ShowValueBox="true" isIOBox="true" Value="256">
+              <Pad Id="MiebWsOtQdCMfR9F9CG1YO" Comment="Y" Bounds="279,384,35,15" ShowValueBox="true" isIOBox="true" Value="64">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Integer32" />
                 </p:TypeAnnotation>
@@ -1725,7 +1725,7 @@
             <Pin Id="OioZA2I91x9PLrUunLhDnN" Name="Result" Kind="OutputPin" />
             <Pin Id="GYursIfujj8NrJHzukExb0" Name="Not Assigned" Kind="OutputPin" />
           </Node>
-          <Pad Id="T9UstgptPO9OLcqvLRkd9o" Comment="Simulate" Bounds="188,158,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="T9UstgptPO9OLcqvLRkd9o" Comment="Simulate" Bounds="193,43,106,120" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
